@@ -2,7 +2,6 @@
 
 [![NPM version][npm-image]][npm-link]
 [![Build Status][build-image]][build-link]
-[![Coverage Status][coverage-image]][coverage-link]
 [![dependency Status][dep-image]][dep-link]
 [![devDependency Status][dev-dep-image]][dev-dep-link]
 
@@ -60,8 +59,6 @@ Copyright (c) 2015 Daisuke Taniwaki. See [LICENSE](LICENSE) for details.
 [npm-link]: http://badge.fury.io/js/koa-no-bot
 [build-image]: https://secure.travis-ci.org/dtaniwaki/koa-no-bot.svg
 [build-link]:  http://travis-ci.org/dtaniwaki/koa-no-bot
-[coverage-image]: https://img.shields.io/coveralls/dtaniwaki/koa-no-bot.svg
-[coverage-link]: https://coveralls.io/r/dtaniwaki/koa-no-bot
 [dep-image]: https://david-dm.org/dtaniwaki/koa-no-bot/status.svg
 [dep-link]: https://david-dm.org/dtaniwaki/koa-no-bot#info=dependencies
 [dev-dep-image]: https://david-dm.org/dtaniwaki/koa-no-bot/dev-status.svg

@@ -4,7 +4,6 @@ coffee = require 'gulp-coffee'
 sourcemaps = require 'gulp-sourcemaps'
 mocha = require 'gulp-mocha'
 cover = require 'gulp-coverage'
-coveralls = require 'gulp-coveralls'
 
 gulp.task 'lint', (done)->
   gulp.src ['src/**/*.coffee', 'test/**/*.coffee']
@@ -36,17 +35,6 @@ gulp.task 'coverage', (done) ->
     .pipe cover.report
       outFile: 'coverage.html'
       reporter: 'html'
-
-gulp.task 'coveralls', (done) ->
-  gulp.src ['test/**/*.coffee'], {read: false}
-    .pipe cover.instrument
-      pattern: ['lib/**/*.js'],
-      debugDirectory: 'debug'
-    .pipe mocha()
-    .pipe cover.gather()
-    .pipe cover.format
-      reporter: 'lcov'
-    .pipe coveralls()
 
 gulp.task 'build', ['lint', 'compile']
 
