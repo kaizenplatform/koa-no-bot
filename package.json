@@ -3,7 +3,7 @@
   "engines": {
     "node": ">= 0.11"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "No bot!",
   "main": "lib/index.js",
   "scripts": {
