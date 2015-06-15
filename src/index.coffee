@@ -9,7 +9,7 @@ middleware = (options) ->
     for bot in bots
       if ua.match(bot.regexp)
         console.log "Found #{bot.name} (#{bot.regexp}):", ua
-        callback.apply(@, bot, ua)
+        callback.apply(@, [bot, ua])
 
     yield next
 

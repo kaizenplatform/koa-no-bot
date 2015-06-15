@@ -69,8 +69,8 @@ describe 'index', ->
   describe "callback option", ->
     beforeEach ->
       @app = koa()
-      @app.use noBot callback: ->
-        @throw 402
+      @app.use noBot callback: (bot, ua) ->
+        @throw 402, "bot #{bot.name} #{bot.regexp}: #{ua}"
       @app.use (next) ->
         @status = 200
         yield next
@@ -80,5 +80,5 @@ describe 'index', ->
       request(@server)
       .get '/'
       .set 'User-Agent', "crawler"
-      .expect 402
+      .expect 402, 'bot General Bots /(bot\\b|spider\\b|crawler\\b|wget|slurp|Mediapartners-Google|YahooSeeker)/i: crawler'
       .end done
