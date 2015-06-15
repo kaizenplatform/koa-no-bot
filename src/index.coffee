@@ -3,7 +3,7 @@ middleware = (options) ->
   bots ||= middleware.default_bots
   callback ||= (bot, ua) ->
     console.log "Found #{bot.name} (#{bot.regexp}):", ua
-    @throw 400
+    @throw 403
 
   (next) ->
     ua = @get("user-agent")
