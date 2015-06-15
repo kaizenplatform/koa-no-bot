@@ -1,0 +1,35 @@
+# http://www.useragentstring.com/pages/Crawlerlist/
+"Baiduspider":
+  "Baiduspider 2.0":
+    - "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+  "Baiduspider":
+    - "Baiduspider+(+http://www.baidu.com/search/spider_jp.html)"
+    - "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+    - "BaiDuSpider"
+"Bingbot":
+  "Bingbot 2.0":
+    - "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+    - "Mozilla/5.0 (compatible; bingbot/2.0 +http://www.bing.com/bingbot.htm)"
+"Googlebot":
+  "Googlebot 2.1":
+    - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+    - "Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
+    - "Googlebot/2.1 (+http://www.google.com/bot.html)"
+"Googlebot-Image":
+  "Googlebot-Image 1.0":
+    - "Googlebot-Image/1.0"
+"Mediapartners-Google":
+  "Mediapartners-Google 2.1":
+    - "Mediapartners-Google/2.1"
+"Yahoo! Slurp":
+  "Yahoo! Slurp":
+    - "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+"Yahoo! Slurp China":
+  "Yahoo! Slurp China":
+    - "Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)"
+"YahooSeeker":
+  "YahooSeeker 1.2":
+    - "YahooSeeker/1.2 (compatible; Mozilla 4.0; MSIE 5.5; yahooseeker at yahoo-inc dot com ; http://help.yahoo.com/help/us/shop/merchant/)"
+"YahooSeeker-Testing":
+  "YahooSeeker-Testing 3.9":
+    - "YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; http://search.yahoo.com/)"
