@@ -28,7 +28,7 @@ describe 'index', ->
               request(@server)
               .get '/'
               .set 'User-Agent', bot
-              .expect 400
+              .expect 403
               .end done
 
   for name, eachBrowsers of allBrowsers
@@ -56,7 +56,7 @@ describe 'index', ->
       request(@server)
       .get '/'
       .set 'User-Agent', "bar"
-      .expect 400
+      .expect 403
       .end done
 
     it "ignores the other bots", (done) ->
