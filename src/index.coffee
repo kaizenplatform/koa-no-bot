@@ -15,7 +15,7 @@ middleware = (options) ->
 
 middleware.default_bots = [{
   name: "General Bots"
-  regexp: /(bot\b|spider\b|crawler\b|wget|slurp|Mediapartners-Google|YahooSeeker)/i
+  regexp: /(bot\b|spider\b|crawler\b|wget|Yahoo ad|slurp|Mediapartners-Google|YahooSeeker)/i
 }]
 
 module.exports = middleware

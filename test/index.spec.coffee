@@ -80,5 +80,5 @@ describe 'index', ->
       request(@server)
       .get '/'
       .set 'User-Agent', "crawler"
-      .expect 402, 'bot General Bots /(bot\\b|spider\\b|crawler\\b|wget|slurp|Mediapartners-Google|YahooSeeker)/i: crawler'
+      .expect 402, /bot General Bots [^:]+: crawler/
       .end done
