@@ -45,3 +45,10 @@
 "Wget":
   "Wget":
     - "Wget/1.12 (linux-gnu)"
+"No UA":
+  "empty":
+    - ""
+  "undefined":
+    - "undefined"
+  "null":
+    - "null"
