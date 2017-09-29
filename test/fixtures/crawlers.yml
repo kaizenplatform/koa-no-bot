@@ -10,6 +10,9 @@
   "Bingbot 2.0":
     - "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
     - "Mozilla/5.0 (compatible; bingbot/2.0 +http://www.bing.com/bingbot.htm)"
+"BingPreview":
+  "BingPreview":
+    - "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b"
 "Googlebot":
   "Googlebot 2.1":
     - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
